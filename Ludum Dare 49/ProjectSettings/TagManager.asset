@@ -3,18 +3,27 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Machine
+  - Press
+  - Conveyor
+  - DmgPress
+  - Left
+  - Right
+  - Lava
+  - ItemLight
+  - MovingConveyor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Press
+  - Lava
+  - PostProcessing
+  - Player
   - 
   - 
   - 
@@ -40,4 +49,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3926322737
+    locked: 0
+  - name: Lava
+    uniqueID: 739466425
+    locked: 0
+  - name: Walls
+    uniqueID: 1240612079
+    locked: 0
+  - name: Main
+    uniqueID: 1671197821
+    locked: 0
+  - name: UI
+    uniqueID: 2960031317
     locked: 0
